@@ -164,3 +164,13 @@ li{
 	align-content: center;
 }
 
+.tab, th{
+	border:2px solid #1659E1;
+	background-color: #78B6EF;
+}
+
+.sl{
+	width: 300px;
+	height: 50px;
+	border-radius: 8px;
+}

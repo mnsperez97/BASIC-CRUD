@@ -10,7 +10,7 @@
 <div class="contenedor">
 	<a href="../destruirses.php">Cerrar Sesion</a>
 	<form action="continenteM.php" method="POST" accept-charset="utf-8" class="formulario">
-		<select name="continente">
+		<select name="continente" class="sl">
 			<?php $con = mysqli_connect("localhost","root","","mundo");
 				  $query = "SELECT continente FROM continentes";
 				  $sql = mysqli_query($con,$query);

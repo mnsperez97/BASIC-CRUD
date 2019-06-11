@@ -17,6 +17,7 @@
 			<li><a href="agregar/index.php">Agregar</a></li>
 			<li><a href="modificar/index.php">Modificar</a></li>
 			<li><a href="eliminar/index.php">Eliminar</a></li>
+			<li><a href="buscador.php">Buscar</a></li>
 		</ul>
 	</div>
 	<?php }	if(!isset($_SESSION['username'])){echo "<script>alert('Inicia Sesion Para ver el Contenido'); window.location.href='../index.php';</script>";}	?>
